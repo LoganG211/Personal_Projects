@@ -20,7 +20,19 @@ $ git submodule update
 ```
 
 
-# Adding a new Repo
+# Updating a Submodule
+
+When you have changed a submodule with the subsequent add/commit/push. You must also change this parent directory as well.
+```
+$ cd path/to/Personal_Projects
+$ git add path/to/submodule
+$ git commit -m "Update <specific> submodule to latest commit"
+$ git push
+```
+The parent repo will only lead to a specific commit of the submodule, by updating it will now lead to the most recent version.
+
+
+# Adding a new Submodule
 
 Make sure the repo has already been created in Github, and pushed.
 1. Go to the local parent directory with link of the new repo copied.

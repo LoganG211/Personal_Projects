@@ -1,0 +1,3 @@
+[submodule "VCD_gen"]
+	path = VCD_gen
+	url = https://github.com/LoganG211/VCD_gen

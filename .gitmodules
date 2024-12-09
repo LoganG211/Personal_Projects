@@ -1,3 +1,6 @@
 [submodule "VCD_gen"]
 	path = VCD_gen
 	url = https://github.com/LoganG211/VCD_gen
+[submodule "CircularBuffer"]
+	path = CircularBuffer
+	url = https://github.com/LoganG211/CircularBuffer

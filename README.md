@@ -22,7 +22,7 @@ $ git submodule update
 
 # Updating a Submodule
 
-When you have changed a submodule with the subsequent add/commit/push. You must also change this parent directory as well.
+When you have changed a submodule with the subsequent add/commit/push, you must also change this parent directory as well. If you have not already pulled to fill out the submodules, please do so as it might create an error later when we try to commit. If you have already made changes and pushed to the submodule repo it will most likely request to merge.
 ```
 $ cd path/to/Personal_Projects
 $ git add path/to/submodule
